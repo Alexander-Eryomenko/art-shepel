@@ -1,7 +1,11 @@
 import { combineReducers } from 'redux';
 
-const rootReducer = combineReducers({
+import { galleryReducer } from './gallery/galleryReducer';
+import { wishListReducer } from './wishList/wishListReducer';
 
+const rootReducer = combineReducers({
+    gallery: galleryReducer,
+    wishList: wishListReducer
 });
 
 export default rootReducer;

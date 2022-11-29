@@ -1,0 +1,15 @@
+.pictures-item {
+
+}
+
+
+@media (max-width: 576px) {
+  .pictures-item {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    row-gap: 10px;
+    min-height: 146px;
+    min-width: 142px;
+  }
+}

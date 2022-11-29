@@ -1,15 +1,20 @@
-import headerLogo from '../../assets/img/header.jpg';
+import logoShepelIcon from '../../assets/icons/logo-shepel-icon.jpg';
 import  './Header.scss';
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 
 const Header = () => {
     return (
         <header className="header">
-            <Link to='/'>
                 <div className="header__logo">
-                    <img src={headerLogo} alt="logo"/>
+                    <div className="header__text">
+                        <div>Shepel</div>
+                        <div>Olha</div>
+                        <div className="header__text_grey">Artist</div>
+                    </div>
+                    <div className="header__foto">
+                        <img src={logoShepelIcon} alt="foto shepel"/>
+                    </div>
                 </div>
-            </Link>
         </header>
     );
 };

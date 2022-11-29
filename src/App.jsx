@@ -13,7 +13,6 @@ import WishList from "./pages/WishList/WishList";
 import './App.css';
 
 function App() {
-    console.log(process.env);
   return (
     <Container>
         <div className="App">

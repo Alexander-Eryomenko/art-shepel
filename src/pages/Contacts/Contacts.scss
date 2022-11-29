@@ -1,0 +1,26 @@
+.contacts {
+
+}
+
+@media (max-width: 576px) {
+  .contacts {
+    font-size: 25px;
+    &__phone, &__telegram {
+      display: flex;
+      margin: 0 auto;
+      justify-content: space-between;
+    }
+    &__phone {
+      margin-bottom: 30px;
+    }
+    &__phone-numbers {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    &__telegram {
+
+    }
+  }
+}

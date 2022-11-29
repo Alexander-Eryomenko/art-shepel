@@ -9,7 +9,7 @@ const PicturesItem = ({title, price, size, src }) => {
             <div className="pictures-item__img">
                 <img src={srcPicture} alt={title}/>
             </div>
-            <div className="pictures-item__title">{title}</div>
+            <div className="pictures-item__title"><q>{title}</q></div>
             {price && <div className="pictures-item__price">{price}</div>}
             {size && <div className="pictures-item__price">{size}</div>}
         </div>

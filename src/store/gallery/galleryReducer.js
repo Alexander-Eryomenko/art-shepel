@@ -49,6 +49,11 @@ const initialData = {
             id: 9,
             title: 'Sunflowers',
             name: 'sunflowers.jpg'
+        },
+        {
+            id: 10,
+            title: 'Acrylic',
+            name: 'acrylic.png'
         }
     ]
 };

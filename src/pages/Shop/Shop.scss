@@ -1,0 +1,28 @@
+.shop {
+  &__title {
+
+  }
+
+  &__items {
+    display: flex;
+  }
+}
+
+@media (max-width: 576px) {
+  .shop {
+    &__title {
+      font-size: 20px;
+      margin-bottom: 20px;
+      font-size: 33px;
+    }
+
+    &__items {
+      flex-direction: row;
+      column-gap: 10px;
+      justify-content: space-between;
+      align-items: flex-start;
+      row-gap: 28px;
+      flex-wrap: wrap;
+    }
+  }
+}

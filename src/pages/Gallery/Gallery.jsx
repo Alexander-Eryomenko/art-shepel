@@ -6,12 +6,16 @@ import './Gallery.scss';
 
 const Gallery = () => {
     const galleryData = useSelector(selectGalleryData);
-    console.log(galleryData);
     return (
         <div className="gallery">
-            {galleryData.map(picture => {
-                return <PicturesItem key={picture.id} title={picture.title} src={picture.name} />;
-            })}
+            <div className="gallery__title">
+                Gallery
+            </div>
+            <div className="gallery__items">
+                {galleryData.map(picture => {
+                    return <PicturesItem key={picture.id} title={picture.title} name={picture.name} />;
+                })}
+            </div>
         </div>
     );
 };

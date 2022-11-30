@@ -7,23 +7,23 @@ const initialData = {
     galleryData: [
         {
             id: 1,
+            title: 'On the top',
+            name: 'on_the_top.jpg'
+        },
+        {
+            id: 2,
             title: 'Alps',
             name: 'alps.jpg'
         },
         {
-            id: 2,
+            id: 3,
             title: 'Calmness',
             name: 'calmness.jpg'
         },
         {
-            id: 3,
+            id: 4,
             title: 'Figs',
             name: 'figs.jpg'
-        },
-        {
-            id: 4,
-            title: 'Garnets',
-            name: 'garnets.jpg'
         },
         {
             id: 5,
@@ -32,13 +32,13 @@ const initialData = {
         },
         {
             id: 6,
-            title: 'Lily of the valley',
-            name: 'lily_of_the_valley.jpg'
+            title: 'Sunflowers',
+            name: 'sunflowers.jpg'
         },
         {
             id: 7,
-            title: 'On the top',
-            name: 'on_the_top.jpg'
+            title: 'Lily of the valley',
+            name: 'lily_of_the_valley.jpg'
         },
         {
             id: 8,
@@ -47,13 +47,14 @@ const initialData = {
         },
         {
             id: 9,
-            title: 'Sunflowers',
-            name: 'sunflowers.jpg'
+            title: 'Garnets',
+            name: 'garnets.jpg'
         },
+
         {
             id: 10,
-            title: 'Acrylic',
-            name: 'acrylic.png'
+            title: 'Sailing life',
+            name: 'sailing_life.png'
         }
     ]
 };

@@ -4,22 +4,22 @@ import storage from 'redux-persist/lib/storage';
 import thunk from 'redux-thunk';
 import rootReducer from './rootReducer';
 
-const logger = () => next => action => {
-    console.log('Action', action);
-    const returnValue = next(action);
-    console.log('new state: ', store.getState());
-    return returnValue;
-};
+// const logger = () => next => action => {
+//     console.log('Action', action);
+//     const returnValue = next(action);
+//     console.log('new state: ', store.getState());
+//     return returnValue;
+// };
 
 const persistConfig = {
     key: 'root',
     storage,
-    whitelist: []
+    whitelist: ['wishList']
 };
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 
-const store = createStore(persistedReducer, applyMiddleware(logger, thunk));
+const store = createStore(persistedReducer, applyMiddleware(thunk));
 export const persistor = persistStore(store);
 
 export default store;

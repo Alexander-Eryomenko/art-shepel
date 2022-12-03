@@ -14,7 +14,7 @@ const Shop = () => {
             </div>
             <div className="shop__items">
                 {shopData.map(picture => {
-                    return <PicturesItem key={picture.id} title={picture.title} typOfPaint={picture.typeOfPaint} size={picture.size} price={picture.price} name={picture.name} />;
+                    return <PicturesItem key={picture.id} id={picture.id} title={picture.title} typOfPaint={picture.typeOfPaint} size={picture.size} price={picture.price} name={picture.name} />;
                 })}
             </div>
         </div>

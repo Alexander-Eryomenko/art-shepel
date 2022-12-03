@@ -8,25 +8,25 @@ const initialData = {
         {
             id: 1,
             title: 'Glass',
-            typeOfPaint: 'Acryl',
+            typeOfPaint: 'Acrylic',
             size: '50 x 50',
-            price: '300$',
+            price: '300 €',
             name: 'glass.jpg'
         },
         {
             id: 2,
             title: 'Figs',
-            typeOfPaint: 'Acryl',
+            typeOfPaint: 'Acrylic',
             size: '30 x 40',
-            price: '210$',
-            name: 'figs.jpg'
+            price: '210 €',
+            name: 'figs_shop.jpg'
         },
         {
             id: 3,
             title: 'Sailing life',
-            typeOfPaint: 'Acryl',
+            typeOfPaint: 'Acrylic',
             size: '100 x 70',
-            price: '370$',
+            price: '370 €',
             name: 'sailing_life.png'
         }
     ]

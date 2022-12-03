@@ -1,6 +1,6 @@
 .header {
   background-color: #404040;
-  height: 125px;
+  min-height: 126px;
   &:after {
     content: '';
     display: block;
@@ -12,13 +12,13 @@
   &__text {
     display: flex;
     flex-direction: column;
-    row-gap: 13px;
-    margin-left: 50px;
+    row-gap: 9px;
     color: #fff;
-    font-size: 29px;
+    margin-left: 55px;
     &_grey {
       color: #888888;
       font-size: 16px;
+      margin-top: -5px;
     }
   }
   &__logo {
@@ -33,7 +33,20 @@
 
 @media (max-width: 576px) {
   .header {
-    height: 125px;
+    background-color: #404040;
+    height: 126px;
     margin-bottom: 47px;
+    &__text {
+      color: #fff;
+      font-size: 29px;
+      &_grey {
+
+      }
+    }
+    &__logo {
+
+    }
+    &__foto {
+    }
   }
 }
